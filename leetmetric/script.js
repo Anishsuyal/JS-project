@@ -119,5 +119,12 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     })
 
+    usernameInput.addEventListener("keydown", function (event) {
+        if (event.key === "Enter") {
+            searchButton.click();
+        }
+    })
+
+
 })
 
