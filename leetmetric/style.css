@@ -53,6 +53,10 @@ h1{
     width: 5.4rem;
 }
 
+.stats-container {
+    display: none; 
+}
+
 .circle{
     width: 120px;
     height: 120px;

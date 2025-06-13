@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
 
-
+    
     const searchButton = document.getElementById("search-btn");
     const usernameInput = document.getElementById("user-input");
     const statsContainer = document.querySelector(".stats-container");
@@ -56,6 +56,8 @@ document.addEventListener("DOMContentLoaded", function() {
             }
             const parsedData = await response.json();
             console.log("Logging data: ", parsedData) ;
+
+            statsContainer.style.display = "block";
 
             displayUserData(parsedData);
         }
